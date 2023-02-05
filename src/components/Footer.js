@@ -1,31 +1,32 @@
+import './Styles.css';
+import logo from '../image/llogo.png'
+
 function Footer() {
 return (
     <>
     <footer>
-        <div>
-        <img src="" alt="Logo"/>
-        </div>
-        <div>
+        <img src={logo} alt="Logo" className="logo"/>
+        <ul>
             <h3>Doormat Navigation</h3>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Menu</a>
-            <a href="">Reservations</a>
-            <a href="">Order Online</a>
-            <a href="">Login</a>
-        </div>
-        <div>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Reservations</a></li>
+            <li><a href="">Order Online</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+        <ul>
             <h3>Contact</h3>
-            <a href="">Address</a>
-            <a href="">Phone Number</a>
-            <a href="">Email</a>
-        </div>
-        <div>
+            <li><a href="">Address</a></li>
+            <li><a href="">Phone Number</a></li>
+            <li><a href="">Email</a></li>
+        </ul>
+        <ul>
             <h3>Social Media Links</h3>
-            <a href="">Facebook</a>
-            <a href="">Twitter</a>
-            <a href="">Instagram</a>
-        </div>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+        </ul>
     </footer>
     </>
   );
