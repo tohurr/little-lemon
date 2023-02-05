@@ -1,9 +1,9 @@
 function Header() {
 return (
     <>
-    <header>
+    {/* <header>
         <img src="" alt="Logo"/>
-    </header>
+    </header> */}
     </>
   );
 }

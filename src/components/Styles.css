@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, serif;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* padding: 1rem; */
+}
+
+.logo {
+    display: grid;
+    width: 30%;
+    /* background-color: aqua; */
+    justify-self: end;
+}
+
+nav ul {
+    /* display: grid; */
+    /* display:inline-block; */
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    
+    display:inline-block;
+    text-align: center;
+    line-height: auto;
+    /* padding: 1rem; */
+    padding-top: 3rem;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: #0F4BF1;
+    text-decoration: underline;
+}
