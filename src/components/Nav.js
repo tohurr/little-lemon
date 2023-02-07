@@ -1,6 +1,6 @@
 import './Styles.css';
 import logo from '../image/llogo.png'
-
+import {Link} from 'react-router-dom';
 
 function Nav() {
 return (
@@ -8,12 +8,12 @@ return (
     <nav>
     <img src={logo} alt="Logo" className="logo"/>
         <ul>
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="#">About</a> </li>
-            <li> <a href="#">Menu</a> </li>
-            <li> <a href="#">Reservations</a> </li>
-            <li> <a href="#">Order Online</a> </li>
-            <li> <a href="#">Login</a> </li>
+            <li> <Link to="/">Home</Link> </li>
+            <li> <Link to="/about-me">About</Link> </li>
+            <li> <Link to="/menu">Menu</Link> </li>
+            <li> <Link to="/reservations-booking">Reservations</Link> </li>
+            <li> <Link to="order-online">Order Online</Link> </li>
+            <li> <Link to="login">Login</Link> </li>
         </ul>
     </nav>
     </>
