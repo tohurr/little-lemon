@@ -1,7 +1,7 @@
 function Menu() {
     return (
         <>
-       <p>Menu</p>
+       <h1>Menu</h1>
         </>
       );
     }

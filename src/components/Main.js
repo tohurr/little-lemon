@@ -3,6 +3,7 @@ import HomePage from './HomePage';
 import Menu from './Menu';
 import About from './About';
 import BookingPage from './BookingPage'
+import Order from './Order'
 
 function Main() {
 return (
@@ -13,6 +14,7 @@ return (
         <Route path="/about" element={<About />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
         <Route path="/reservations-booking" element={<BookingPage />}></Route>
+        <Route path="/order-online" element={<Order />}></Route>
       </Routes>
     </main>
     </>

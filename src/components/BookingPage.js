@@ -1,7 +1,7 @@
 function BookingPage() {
     return (
         <>
-       <p>Reserve table</p>
+       <h1>Reserve table</h1>
         </>
       );
     }

@@ -2,7 +2,7 @@ function CustomersSay() {
     return (
         <>
         <div className="customers">
-            <h2>Customer Say</h2>
+            <h2>Testimonials</h2>
             <div class="testimonials">
                 <h4>Rating</h4>
                 <div className="text-right">
