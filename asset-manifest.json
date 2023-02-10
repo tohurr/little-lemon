@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reserve-table/static/css/main.1d81bb79.css",
-    "main.js": "/reserve-table/static/js/main.df354770.js",
+    "main.js": "/reserve-table/static/js/main.b262b4f3.js",
     "static/js/787.fa78a417.chunk.js": "/reserve-table/static/js/787.fa78a417.chunk.js",
     "static/media/bruchetta.svg": "/reserve-table/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
     "static/media/restaurantchefB.jpg": "/reserve-table/static/media/restaurantchefB.4b4c2d26b514db32e8fc.jpg",
@@ -16,11 +16,11 @@
     "static/media/star": "/reserve-table/static/media/star.b6f87847d1ef61cf8551",
     "index.html": "/reserve-table/index.html",
     "main.1d81bb79.css.map": "/reserve-table/static/css/main.1d81bb79.css.map",
-    "main.df354770.js.map": "/reserve-table/static/js/main.df354770.js.map",
+    "main.b262b4f3.js.map": "/reserve-table/static/js/main.b262b4f3.js.map",
     "787.fa78a417.chunk.js.map": "/reserve-table/static/js/787.fa78a417.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d81bb79.css",
-    "static/js/main.df354770.js"
+    "static/js/main.b262b4f3.js"
   ]
 }
