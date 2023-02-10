@@ -15,8 +15,8 @@ function Chicago() {
             </p>
           </div>
           <div className="chicago_img_div">
-            <img src={rest} alt="Hero Image"/>
-            <img src={restaurant} alt="Hero Image"/>
+            <img src={rest} alt="about_chicago"/>
+            <img src={restaurant} alt="about_chicago"/>
           </div>
       </div>
         </>
