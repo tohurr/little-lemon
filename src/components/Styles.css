@@ -14,10 +14,20 @@ button {
 .flogo {
     margin-top: 2rem;
     justify-self: end;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: .5rem;
+    background-color: #edefee;
 }
 
 @media (max-width:800px) {
     .logo {
+        place-self: center;
+    }
+}
+
+@media (max-width:800px) {
+    .flogo {
         place-self: center;
     }
 }
@@ -28,7 +38,13 @@ nav {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    /* padding: 1rem; */
+}
+
+@media (max-width:800px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 nav ul {
@@ -42,9 +58,7 @@ nav ul {
 nav li {
     display:inline-grid;
     text-align: center;
-    line-height: auto;
     padding: 1rem;
-    /* padding-top: 3rem; */
 }
 
 @media (max-width:800px) {
@@ -66,7 +80,7 @@ nav a:hover {
 }
 
 /* ###
-`Footer.js */
+    Footer.js */
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -125,8 +139,8 @@ CallToAction.js*/
 @media (max-width:800px) {
     .hero {
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap-reverse;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -141,7 +155,7 @@ CallToAction.js*/
         width: auto;
         margin-left: 1rem;
         margin-right: 1rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0;
     }
 }
 
@@ -168,8 +182,10 @@ CallToAction.js*/
 
 @media (max-width:800px) {
     .hero img {
-        margin-bottom: 0%;
-        margin-right: 0%;
+        margin-right: 0;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 2rem;
     }
 }
 
@@ -185,7 +201,6 @@ CallToAction.js*/
     font-weight: bold;
     padding: 10px;
     transition-duration: 0.4s;
-    /* cursor:pointer; */
 }
 
 .hero button:hover {
@@ -238,8 +253,6 @@ CallToAction.js*/
     grid-template-columns: repeat(3, 1fr);
     margin-left: 18%;
     margin-right: 18%;
-    /* border: 1px solid red; */
-
 }
 
 @media (max-width:800px) {
@@ -255,10 +268,16 @@ CallToAction.js*/
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    /* justify-content: space-between; */
     background-color: #edefee;
     padding: 1rem;
+    border: 1px solid #333333;
     border-radius: 16px;
+}
+
+@media (max-width:800px) {
+    .divcard {
+        row-gap: 1rem;
+    }
 }
 
 .card a {
@@ -288,6 +307,14 @@ CallToAction.js*/
     padding-bottom: 6rem;
 }
 
+@media (max-width:800px) {
+    .testimonials {
+    padding-top: 0;
+    padding-bottom: 2rem;
+    row-gap: 0;
+    }
+}
+
 .testimonials h2{
     color: #F4CE14;
 }
@@ -303,11 +330,21 @@ CallToAction.js*/
     justify-content: center;
 }
 
+@media (max-width:800px) {
+    .ratingsrow {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }
+}
+
 .ratingsbox {
     background-color: #edefee;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border: 1px solid #495E57;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+    border: 1px solid #333333;
     border-radius: 16px;
 }
 
@@ -328,34 +365,30 @@ CallToAction.js*/
 }
 
 @media (max-width:800px) {
-    .ratingsrow {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 0;
-    margin: 0;
+    .ratingsbox {
+    padding-left: 1rem;
     }
 }
-
-/* .text-right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-} */
-
-/* .name{
-    margin-left: 1rem;
-} */
 
 /* ########### */
 /* Chicago.js */
 .chicago {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* align-items: center; */
     margin-left: 18%;
     margin-right: 18%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+@media (max-width:800px) {
+    .chicago {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    }
 }
 
 .chicago_text {
