@@ -1,5 +1,6 @@
 import './Styles.css';
-import logo from '../image/llogo.png'
+import llogo from '../image/llogo.png'
+import logo from '../image/logo.svg'
 import {Link} from 'react-router-dom';
 
 function Nav() {

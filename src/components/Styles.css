@@ -7,9 +7,13 @@ button {
 }
 
 .logo {
-    max-width: 30%;
+    /* max-width: 30%; */
     justify-self: end;
-    /* background-color: aqua; */
+}
+
+.flogo {
+    margin-top: 2rem;
+    justify-self: end;
 }
 
 @media (max-width:800px) {
@@ -18,9 +22,12 @@ button {
     }
 }
 
+/* ###
+    Nav.js */
 nav {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    align-items: center;
     /* padding: 1rem; */
 }
 
@@ -58,9 +65,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* ###
+`Footer.js */
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    /* background-color: #333333; */
     background-color: #495E57;
 }
 
@@ -93,20 +103,22 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* ###
+CallToAction.js*/
 .hero h1 {
+    color: #F4CE14;
     margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
-.sub-heading {
+.hero h3 {
     color: white;
     margin-top: 0;
 }
 
 .hero {
     display: grid;
-    /* align-items: center; */
     grid-template-columns: repeat(2, 1fr);
-    /* grid-column-gap: 5rem; */
     background-color: #495E57;
 }
 
@@ -161,14 +173,6 @@ footer a:hover {
     }
 }
 
-.hero h1 {
-    color: #F4CE14;
-}
-
-.hero h4 {
-    color: white;
-}
-
 .hero p {
     color: white;
 }
@@ -176,7 +180,7 @@ footer a:hover {
 .hero button {
     background-color: #F4CE14;
     border: 1px solid #F4CE14;
-    border-radius: 8px;
+    border-radius: 16px;
     font-size: 15px;
     font-weight: bold;
     padding: 10px;
@@ -189,6 +193,8 @@ footer a:hover {
     transition: transform .2s;
 }
 
+/* ########### */
+/* Specials.js */
 .specials {
     display: grid;
 }
@@ -203,7 +209,7 @@ footer a:hover {
 .specials-menu button {
     background-color: #F4CE14;
     border: 1px solid #F4CE14;
-    border-radius: 8px;
+    border-radius: 16px;
     font-size: 15px;
     font-weight: bold;
     padding: 10px;
@@ -219,6 +225,11 @@ footer a:hover {
     display: flex;
     align-items: center;
     gap: 2rem;
+    font-weight: bold;
+}
+
+.menu-price p {
+    color: #EE9972;
 }
 
 .divcard {
@@ -244,10 +255,10 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    /* border: 2px dashed rgba(236, 198, 48, 0.5); */
+    /* justify-content: space-between; */
+    background-color: #edefee;
     padding: 1rem;
-    border: 1px solid #495E57;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .card a {
@@ -262,27 +273,112 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.customers {
-    display: grid;
-    border: 1px solid aqua;
-}
-
+/* ########### */
+/* Testimonials.js */
 .testimonials {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #495E57;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    row-gap: 2rem;
+    padding-bottom: 6rem;
 }
 
-.text-right {
-    display: inline-grid;
-    border: 1px solid red;
-    text-align: center;
+.testimonials h2{
+    color: #F4CE14;
 }
 
-.text-right .avatar {
+.ratingsrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-left: 18%;
+    margin-right: 18%;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.ratingsbox {
+    background-color: #edefee;
+    padding-left: 1rem;
     padding-right: 1rem;
+    border: 1px solid #495E57;
+    border-radius: 16px;
 }
 
+.ratingsbox h4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.star {
+    width: 20%;
+}
+
+.avatar {
+    width: 55%;
+    margin-right: 1rem;
+}
+
+@media (max-width:800px) {
+    .ratingsrow {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0;
+    margin: 0;
+    }
+}
+
+/* .text-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+/* .name{
+    margin-left: 1rem;
+} */
+
+/* ########### */
+/* Chicago.js */
 .chicago {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 1px solid blue;
+    /* align-items: center; */
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.chicago_text {
+    width: 80%;
+}
+
+.chicago_img_div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.chicago img {
+    border: 1px solid #495E57;
+    width: 60%;
+}
+
+.chicago h1 {
+    margin-bottom: 0;
+}
+
+.chicago h3 {
+    margin-top: 0;
 }

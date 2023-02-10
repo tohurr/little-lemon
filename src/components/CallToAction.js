@@ -7,7 +7,7 @@ function CallToAction() {
         <div className="hero">
             <div className="hero-items">
                 <h1>Little Lemon</h1>
-                <h3 className="sub-heading">Chicago</h3>
+                <h3>Chicago</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                      tempor incididunt ut labore et dolore magna aliqua.
                 </p>

@@ -1,11 +1,12 @@
 import './Styles.css';
-import logo from '../image/llogo.png'
+import llogo from '../image/llogo.png'
+import logo from '../image/logo.svg'
 
 function Footer() {
 return (
     <>
     <footer>
-        <img src={logo} alt="Logo" className="logo"/>
+        <img src={logo} alt="Logo" className="flogo"/>
         <ul>
             <h3>Doormat Navigation</h3>
             <li><a href="">Home</a></li>
