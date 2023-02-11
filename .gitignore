@@ -4,8 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-# src/image
-# /image
+src/image
+/image
 
 # testing
 /coverage
