@@ -10,6 +10,7 @@ return (
     <>
     <main>
       <Routes>
+        <Route path="/reserve-table" element={<HomePage />}></Route>
         <Route path="/home" element={<HomePage />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
