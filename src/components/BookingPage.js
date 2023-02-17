@@ -1,7 +1,9 @@
+import BookingForm from './BookingForm';
+
 function BookingPage() {
     return (
         <>
-       <h1>Reserve table</h1>
+       <BookingForm />
         </>
       );
     }
